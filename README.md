@@ -5,14 +5,14 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 
 | Dataset             | Application/Task                                        | DS | Domains                                  |
 |---------------------|---------------------------------------------------------|----|------------------------------------------|
-| **Detection**       |                                                         |    |                                          |
-| ATYPIA14            | Mitosis detection in breast cancer                       | 1  | 2 scanners                               |
+|                     |                   **Detection**                         |    |                                          |
+| ATYPIA14 [paper][download]           | Mitosis detection in breast cancer                       | 1  | 2 scanners                               |
 | Crowdsource         | Nuclei detection in renal cell carcinoma                | 3  | 6 annotators                             |
 | TUPAC-Aux           | Mitosis detection in breast cancer                       | 1  | 3 centers                                |
 | DigestPath          | Signet ring cell detection in colon cancer               | 1  | 4 centers                                |
 | TiGER-Cells         | TILs detection in breast cancer                          | 1  | 3 sources                                |
 | MIDOG               | Mitosis detection in multiple cancer types               | 1, 2, 3 | 7 tumors, 2 species                  |
-| **Classification**  |                                                         |    |                                          |
+|  |                               **Classification**                           |    |                                          |
 | TUPAC-Mitosis       | BC proliferation scoring based on mitosis score          | 1  | 3 centers                                |
 | Camelyon16          | Lymph node WSI classification for BC metastasis          | 1  | 2 centers                                |
 | PatchCamelyon       | BC tumor classification based on Camelyon16              | 1  | 2 centers                                |
@@ -21,12 +21,12 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | Kather 100K         | Colon cancer tissue phenotype classification            | 1  | 3 centers                                |
 | WILDS               | BC tumor classification based on Camelyon17              | 1  | 5 centers                                |
 | PANDA               | ISUP and Gleason grading of prostate cancer             | 1, 2, 3 | 2 centers                          |
-| **Regression**      |                                                         |    |                                          |
+|      |                                   **Regression**                       |    |                                          |
 | TUPAC-PAM50         | BC proliferation scoring based on PAM50                  | 1  | 3 centers                                |
 | LYSTO               | Lymphocyte assessment (counting) in IHC images           | 1  | 3 cancers, 9 centers                     |
 | CoNIC (Lizard)      | Cellular composition in colon cancer                     | 1, 3 | 6 sources                             |
 | TiGER-TILs          | TIL score estimation in breast cancer                    | 1  | 3 sources                                |
-| **Segmentation**    |                                                         |    |                                          |
+|     |                            **Segmentation**                             |    |                                          |
 | Crowdsource         | Nuclear segmentation in renal cell carcinoma             | 3  | 6 annotators                             |
 | Camelyon            | BC metastasis segmentation in lymph node WSIs            | 1  | 2 and 5 centers                          |
 | DS Bowl 2018        | Nuclear instance segmentation                           | 1, 4 | 31 sets, 5 modalities                   |
@@ -43,7 +43,7 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | TiGER-BCSS          | Tissue segmentation in BC (BCSS extension)               | 1  | 3 sources                                |
 | DigestPath          | Colon tissue segmentation                                | 1  | 4 centers                                |
 | NuInsSeg            | Nuclear instance segmentation pan-cancer/species         | 1,4 | 31 organs, 2 species                     |
-| **Survival and gene expression prediction** |                        |    |                                          |
+| |         **Survival and gene expression prediction**                |    |                                          |
 | TCGA                | Pan-cancer survival and gene expression prediction       | 1, 2, 4 | 33 cancers, 20 centers             |
 | CPTAC               | Pan-cancer survival and gene expression prediction       | 1, 2 | 10 cancers, 11 centers                  |
 
