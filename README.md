@@ -1,5 +1,52 @@
 # Awesome Domain Generalization for Computational Pathology
 
+## Datasets
+Publicly available datasets for DG experiments in CPath. Column `DS` represents the type domain shift that can be studies with each dataset (`1: Covariate Shift`, `2: Prior Shift`, `3: Posterior Shift`, and `4: Class-Conditional Shift`).
+
+| Dataset             | Application/Task                                        | DS | Domains                                  |
+|---------------------|---------------------------------------------------------|----|------------------------------------------|
+| **Detection**       |                                                         |    |                                          |
+| ATYPIA14            | Mitosis detection in breast cancer                       | 1  | 2 scanners                               |
+| Crowdsource         | Nuclei detection in renal cell carcinoma                | 3  | 6 annotators                             |
+| TUPAC-Aux           | Mitosis detection in breast cancer                       | 1  | 3 centers                                |
+| DigestPath          | Signet ring cell detection in colon cancer               | 1  | 4 centers                                |
+| TiGER-Cells         | TILs detection in breast cancer                          | 1  | 3 sources                                |
+| MIDOG               | Mitosis detection in multiple cancer types               | 1, 2, 3 | 7 tumors, 2 species                  |
+| **Classification**  |                                                         |    |                                          |
+| TUPAC-Mitosis       | BC proliferation scoring based on mitosis score          | 1  | 3 centers                                |
+| Camelyon16          | Lymph node WSI classification for BC metastasis          | 1  | 2 centers                                |
+| PatchCamelyon       | BC tumor classification based on Camelyon16              | 1  | 2 centers                                |
+| Camelyon17          | BC metastasis detection and pN-stage estimation          | 1  | 5 centers                                |
+| LC25000             | Lung and colon tumor classification                     | 4  | 2 organs                                 |
+| Kather 100K         | Colon cancer tissue phenotype classification            | 1  | 3 centers                                |
+| WILDS               | BC tumor classification based on Camelyon17              | 1  | 5 centers                                |
+| PANDA               | ISUP and Gleason grading of prostate cancer             | 1, 2, 3 | 2 centers                          |
+| **Regression**      |                                                         |    |                                          |
+| TUPAC-PAM50         | BC proliferation scoring based on PAM50                  | 1  | 3 centers                                |
+| LYSTO               | Lymphocyte assessment (counting) in IHC images           | 1  | 3 cancers, 9 centers                     |
+| CoNIC (Lizard)      | Cellular composition in colon cancer                     | 1, 3 | 6 sources                             |
+| TiGER-TILs          | TIL score estimation in breast cancer                    | 1  | 3 sources                                |
+| **Segmentation**    |                                                         |    |                                          |
+| Crowdsource         | Nuclear segmentation in renal cell carcinoma             | 3  | 6 annotators                             |
+| Camelyon            | BC metastasis segmentation in lymph node WSIs            | 1  | 2 and 5 centers                          |
+| DS Bowl 2018        | Nuclear instance segmentation                           | 1, 4 | 31 sets, 5 modalities                   |
+| CPM                 | Nuclear instance segmentation                            | 1, 4 | 4 cancers                                |
+| BCSS                | Semantic tissue segmentation in BC (from TCGA)           | 1  | 20 centers                               |
+| AIDPATH             | Glomeruli segmentation in Kidney biopsies               | 1  | 3 centers                                |
+| PanNuke             | Nuclear instance segmentation and classification         | 1, 2, 4 | 19 organs                           |
+| MoNuSeg             | Nuclear instance segmentation in H&E images              | 1  | 9 organs, 18 centers                     |
+| CryoNuSeg           | Nuclear segmentation in cryosectioned H&E                | 1, 3 | 10 organs, 3 annotations                 |
+| MoNuSAC             | Nuclear instance segmentation and classification         | 1, 2 | 37 centers, 4 organs                     |
+| Lizard              | Nuclear instance segmentation and classification         | 1, 3 | 6 sources                                |
+| MetaHistoSeg        | Multiple segmentation tasks in various cancers            | 1  | 5 sources/tasks                          |
+| PANDA               | Tissue segmentation in prostate cancer                   | 1, 2 | 2 centers                                |
+| TiGER-BCSS          | Tissue segmentation in BC (BCSS extension)               | 1  | 3 sources                                |
+| DigestPath          | Colon tissue segmentation                                | 1  | 4 centers                                |
+| NuInsSeg            | Nuclear instance segmentation pan-cancer/species         | 1,4 | 31 organs, 2 species                     |
+| **Survival and gene expression prediction** |                        |    |                                          |
+| TCGA                | Pan-cancer survival and gene expression prediction       | 1, 2, 4 | 33 cancers, 20 centers             |
+| CPTAC               | Pan-cancer survival and gene expression prediction       | 1, 2 | 10 cancers, 11 centers                  |
+
 ## Code bases
 
 | Reference | DG Method | Title |
