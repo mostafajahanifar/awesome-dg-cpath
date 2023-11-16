@@ -52,57 +52,57 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | Reference | DG Method | Title |
 |-----------|-----------|-------|
 | **Pretraining** | | |
-| Yang *et al*. \cite{5_yang2022cpath} | Minimizing Contrastive Loss | CS-CO: A Hybrid Self-Supervised Visual Representation Learning Method for H&E-stained Histopathological Images |
-| Li *et al*. \cite{6_li2022cpath} | Minimizing Contrastive Loss | Lesion-Aware Contrastive Representation Learning For Histopathology Whole Slide Images Analysis |
-| Galdran *et al*. \cite{86_galdran2022cpath} | Unsupervised/Self-supervised learning | Test Time Transform Prediction for Open Set Histopathological Image Recognition |
-| Bozorgtabar *et al*. \cite{87_bozorgtabar2021cpath} | Unsupervised/Self-supervised learning | SOoD: Self-Supervised Out-of-Distribution Detection Under Domain Shift for Multi-Class Colorectal Cancer Tissue Types |
-| Koohbanani *et al*. \cite{89_koohbanani2021cpath} | Multiple Pretext Tasks | Self Path: Self Supervision for Classification of Histology Images with Limited Budget of Annotation |
-| Abbet *et al*. \cite{91_abbet2022cpath} | Unsupervised/Self-supervised learning | Self-rule to multi-adapt: Generalized multi-source feature learning using unsupervised domain adaptation for colorectal cancer tissue detection |
-| Cho *et al*. \cite{117_cho2021cpath} | Unsupervised/Self-supervised learning | Cell Detection in Domain Shift Problem Using Pseudo-Cell-Position Heatmap |
-| Chikontwe *et al*. \cite{123_chikontwe2022cpath} | Unsupervised/Self-supervised learning | Weakly supervised segmentation on neural compressed histopathology with self-equivariant regularization |
-| Tran *et al*. \cite{142_tran2022cpath} | Minimizing Contrastive Loss | S5CL: Unifying Fully-Supervised, Self-Supervised, and Semi-Supervised Learning Through Hierarchical Contrastive Learning |
-| Sikaroudi *et al*. \cite{154_sikaroudi2020cpath} | Unsupervised/Self-supervised learning | Supervision and Source Domain Impact on Representation Learning: A Histopathology Case Study |
-| Wang *et al*. \cite{158_wang2022cpath} | Unsupervised/Self-supervised learning | Transformer-based unsupervised contrastive learning for histopathological image classification |
-| Kang *et al*. \cite{159_kang2023cpath} | Unsupervised/Self-supervised learning | Benchmarking Self-Supervised Learning on Diverse Pathology Datasets |
-| Lazard *et al*. \cite{178_lazard2023cpath} | Contrastive Learning | Giga-SSL: Self-Supervised Learning for Gigapixel Images |
-| Vuong *et al*. \cite{180_vuong2023cpath} | Contrastive Learning | IMPaSh: A Novel Domain-Shift Resistant Representation for Colorectal Cancer Tissue Classification |
-| Chen *et al*. \cite{194_chen2022cpath} | Unsupervised/Self-supervised learning | Fast and scalable search of whole-slide images via self-supervised deep learning |
+| Yang *et al*. [[paper](https://www.sciencedirect.com/science/article/pii/S1361841522001864)][[code](https://github.com/easonyang1996/CS-CO)] | Minimizing Contrastive Loss | CS-CO: A Hybrid Self-Supervised Visual Representation Learning Method for H&E-stained Histopathological Images |
+| Li *et al*. [[paper](https://conferences.miccai.org/2022/papers/293-Paper1939.html)][[code](https://github.com/junl21/lacl)] \cite{6_li2022cpath} | Minimizing Contrastive Loss | Lesion-Aware Contrastive Representation Learning For Histopathology Whole Slide Images Analysis |
+| Galdran *et al*. [[paper]()][[code]()] \cite{86_galdran2022cpath} | Unsupervised/Self-supervised learning | Test Time Transform Prediction for Open Set Histopathological Image Recognition |
+| Bozorgtabar *et al*. [[paper]()][[code]()] \cite{87_bozorgtabar2021cpath} | Unsupervised/Self-supervised learning | SOoD: Self-Supervised Out-of-Distribution Detection Under Domain Shift for Multi-Class Colorectal Cancer Tissue Types |
+| Koohbanani *et al*. [[paper]()][[code]()] \cite{89_koohbanani2021cpath} | Multiple Pretext Tasks | Self Path: Self Supervision for Classification of Histology Images with Limited Budget of Annotation |
+| Abbet *et al*. [[paper]()][[code]()] \cite{91_abbet2022cpath} | Unsupervised/Self-supervised learning | Self-rule to multi-adapt: Generalized multi-source feature learning using unsupervised domain adaptation for colorectal cancer tissue detection |
+| Cho *et al*. [[paper]()][[code]()]\cite{117_cho2021cpath} | Unsupervised/Self-supervised learning | Cell Detection in Domain Shift Problem Using Pseudo-Cell-Position Heatmap |
+| Chikontwe *et al*. [[paper]()][[code]()]\cite{123_chikontwe2022cpath} | Unsupervised/Self-supervised learning | Weakly supervised segmentation on neural compressed histopathology with self-equivariant regularization |
+| Tran *et al*. [[paper]()][[code]()]\cite{142_tran2022cpath} | Minimizing Contrastive Loss | S5CL: Unifying Fully-Supervised, Self-Supervised, and Semi-Supervised Learning Through Hierarchical Contrastive Learning |
+| Sikaroudi *et al*. [[paper]()][[code]()]\cite{154_sikaroudi2020cpath} | Unsupervised/Self-supervised learning | Supervision and Source Domain Impact on Representation Learning: A Histopathology Case Study |
+| Wang *et al*. [[paper]()][[code]()]\cite{158_wang2022cpath} | Unsupervised/Self-supervised learning | Transformer-based unsupervised contrastive learning for histopathological image classification |
+| Kang *et al*. [[paper]()][[code]()]\cite{159_kang2023cpath} | Unsupervised/Self-supervised learning | Benchmarking Self-Supervised Learning on Diverse Pathology Datasets |
+| Lazard *et al*. [[paper]()][[code]()]\cite{178_lazard2023cpath} | Contrastive Learning | Giga-SSL: Self-Supervised Learning for Gigapixel Images |
+| Vuong *et al*. [[paper]()][[code]()]\cite{180_vuong2023cpath} | Contrastive Learning | IMPaSh: A Novel Domain-Shift Resistant Representation for Colorectal Cancer Tissue Classification |
+| Chen *et al*. [[paper]()][[code]()]\cite{194_chen2022cpath} | Unsupervised/Self-supervised learning | Fast and scalable search of whole-slide images via self-supervised deep learning |
 | **Meta-Learning** | | |
-| Sikaroudi *et al*. \cite{16_sikaroudi2021cpath} | Meta-learning | Magnification Generalization For Histopathology Image Embedding |
-| Yuan *et al*. \cite{45_yuan2021cpath} | Meta-learning | MetaHistoSeg: A Python Framework for Meta Learning in Histopathology Image Segmentation |
+| Sikaroudi *et al*. [[paper]()][[code]()]\cite{16_sikaroudi2021cpath} | Meta-learning | Magnification Generalization For Histopathology Image Embedding |
+| Yuan *et al*. [[paper]()][[code]()]\cite{45_yuan2021cpath} | Meta-learning | MetaHistoSeg: A Python Framework for Meta Learning in Histopathology Image Segmentation |
 | **Domain Alignment** | | |
-| Sharma *et al*. \cite{19_sharma2022cpath} | Mutual Information | MaNi: Maximizing Mutual Information for Nuclei Cross-Domain Unsupervised Segmentation |
-| Boyd *et al*. \cite{31_boyd2022cpath} | Generative Models | Region-guided CycleGANs for Stain Transfer in Whole Slide Images |
-| Kather *et al*. \cite{79_kather2019cpath} | Stain Normalization | Deep learning can predict microsatellite instability directly from histology in gastrointestinal cancer |
-| Zheng *et al*. \cite{203_zheng2019cpath} | Stain Normalization | Adaptive color deconvolution for histological WSI normalization |
-| Sebai *et al*. \cite{80_sebai2020cpath} | Stain Normalization | MaskMitosis: a deep learning framework for fully supervised, weakly supervised, and unsupervised mitosis detection in histopathology images |
-| Zhang *et al*. \cite{90_zhang2022cpath} | Minimizing Contrastive Loss | Stain Based Contrastive Co-training for Histopathological Image Analysis |
-| Shahban *et al*. \cite{103_shaban2019cpath} | Generative Models | Staingan: Stain Style Transfer for Digital Histological Images |
-| Wagner *et al*. \cite{113_wagner2022cpath} | Generative Models | Federated Stain Normalization for Computational Pathology|
-| Quiros *et al*. \cite{143_quiros2021cpath} | Domain Adversarial Learning | Adversarial learning of cancer tissue representations |
-| Salehi *et al*. \cite{147_salehi2022cpath} | Minimizing the KL Divergence | Unsupervised Cross-Domain Feature Extraction for Single Blood Cell Image Classification |
-| Wilm *et al*. \cite{188_wilm2021cpath} | Domain-Adversarial Learning | Domain adversarial retinanet as a reference algorithm for the mitosis domain generalization (midog) challenge |
-| Haan *et al*. \cite{193_haan2021cpath} | Generative models | Deep learning-based transformation of H&E stained tissues into special stains |
-| Dawood *et al*. \cite{207_dawood2023cpath} | Stain Normalization | Do Tissue Source Sites leave identifiable Signatures in Whole Slide Images beyond staining? | 
+| Sharma *et al*. [[paper]()][[code]()]\cite{19_sharma2022cpath} | Mutual Information | MaNi: Maximizing Mutual Information for Nuclei Cross-Domain Unsupervised Segmentation |
+| Boyd *et al*. [[paper]()][[code]()]\cite{31_boyd2022cpath} | Generative Models | Region-guided CycleGANs for Stain Transfer in Whole Slide Images |
+| Kather *et al*. [[paper]()][[code]()]\cite{79_kather2019cpath} | Stain Normalization | Deep learning can predict microsatellite instability directly from histology in gastrointestinal cancer |
+| Zheng *et al*. [[paper]()][[code]()]\cite{203_zheng2019cpath} | Stain Normalization | Adaptive color deconvolution for histological WSI normalization |
+| Sebai *et al*. [[paper]()][[code]()]\cite{80_sebai2020cpath} | Stain Normalization | MaskMitosis: a deep learning framework for fully supervised, weakly supervised, and unsupervised mitosis detection in histopathology images |
+| Zhang *et al*. [[paper]()][[code]()]\cite{90_zhang2022cpath} | Minimizing Contrastive Loss | Stain Based Contrastive Co-training for Histopathological Image Analysis |
+| Shahban *et al*. [[paper]()][[code]()]\cite{103_shaban2019cpath} | Generative Models | Staingan: Stain Style Transfer for Digital Histological Images |
+| Wagner *et al*. [[paper]()][[code]()]\cite{113_wagner2022cpath} | Generative Models | Federated Stain Normalization for Computational Pathology|
+| Quiros *et al*. [[paper]()][[code]()]\cite{143_quiros2021cpath} | Domain Adversarial Learning | Adversarial learning of cancer tissue representations |
+| Salehi *et al*. [[paper]()][[code]()]\cite{147_salehi2022cpath} | Minimizing the KL Divergence | Unsupervised Cross-Domain Feature Extraction for Single Blood Cell Image Classification |
+| Wilm *et al*. [[paper]()][[code]()]\cite{188_wilm2021cpath} | Domain-Adversarial Learning | Domain adversarial retinanet as a reference algorithm for the mitosis domain generalization (midog) challenge |
+| Haan *et al*. [[paper]()][[code]()]\cite{193_haan2021cpath} | Generative models | Deep learning-based transformation of H&E stained tissues into special stains |
+| Dawood *et al*. [[paper]()][[code]()]\cite{207_dawood2023cpath} | Stain Normalization | Do Tissue Source Sites leave identifiable Signatures in Whole Slide Images beyond staining? | 
 | **Data Augmentation** | | |
-| Pohjonen *et al*. \cite{29_pohjonen2022cpath} | Data augmentation | Augment like there’s no tomorrow: Consistently performing neural networks for medical imaging  |
-| Chang *et al*. \cite{56_chang2021cpath} | Stain Augmentation | Stain Mix-up: Unsupervised Domain Generalization for Histopathology Images |
-| Shen *et al*. \cite{57_shen2022cpath} | Stain Augmentation | RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization |
-| Koohbanani *et al*. \cite{59_alemi-koohbanani2020cpath} | Data augmentation | NuClick: A deep learning framework for interactive segmentation of microscopic images  |
-| Wang *et al*. \cite{61_wang2023cpath} | Data augmentation |  A generalizable and robust deep learning algorithm for mitosis detection in multicenter breast histopathological images | 
-| Lin *et al*. \cite{62_lin2022cpath} | Generative Models | InsMix: Towards Realistic Generative Data Augmentation for Nuclei Instance Segmentation |
-| Zhang *et al*. \cite{85_zhang2022cpath} | Data augmentation | Benchmarking the Robustness of Deep Neural Networks to Common Corruptions in Digital Pathology |
-| Yamashita *et al*. \cite{92_yamashita2021cpath} | Style Transfer Models | Learning domain-agnostic visual representation for computational pathology using medically-irrelevant style transfer augmentation |
-| Falahkheirkhah *et al*. \cite{98_falahkheirkhah2023cpath} | Generative Models | Deepfake Histologic Images for Enhancing Digital Pathology |
-| Scalbert *et al*. \cite{102_scalbert2022cpath} | Generative Models | Test-time image-to-image translation ensembling improves out-of-distribution generalization in histopathology |
-| Mahmood *et al*. \cite{128_mahmood2020cpath} | Generative Models | Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images |
-| Fan *et al*. \cite{141_fan2022cpath} | Generative Models | Fast FF-to-FFPE Whole Slide Image Translation via Laplacian Pyramid and Contrastive Learning |
-| Marini *et al*. \cite{148_marini2023cpath} | Stain Augmentation | Data-driven color augmentation for H&E stained images in computational pathology |
-| Faryna *et al*. \cite{163_faryna2021cpath} | RandAugment for Histology | Tailoring automated data augmentation to H&E-stained histopathology |
+| Pohjonen *et al*. [[paper]()][[code]()]\cite{29_pohjonen2022cpath} | Data augmentation | Augment like there’s no tomorrow: Consistently performing neural networks for medical imaging  |
+| Chang *et al*. [[paper]()][[code]()]\cite{56_chang2021cpath} | Stain Augmentation | Stain Mix-up: Unsupervised Domain Generalization for Histopathology Images |
+| Shen *et al*. [[paper]()][[code]()]\cite{57_shen2022cpath} | Stain Augmentation | RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization |
+| Koohbanani *et al*. [[paper]()][[code]()]\cite{59_alemi-koohbanani2020cpath} | Data augmentation | NuClick: A deep learning framework for interactive segmentation of microscopic images  |
+| Wang *et al*. [[paper]()][[code]()]\cite{61_wang2023cpath} | Data augmentation |  A generalizable and robust deep learning algorithm for mitosis detection in multicenter breast histopathological images | 
+| Lin *et al*. [[paper]()][[code]()]\cite{62_lin2022cpath} | Generative Models | InsMix: Towards Realistic Generative Data Augmentation for Nuclei Instance Segmentation |
+| Zhang *et al*. [[paper]()][[code]()]\cite{85_zhang2022cpath} | Data augmentation | Benchmarking the Robustness of Deep Neural Networks to Common Corruptions in Digital Pathology |
+| Yamashita *et al*. [[paper]()][[code]()]\cite{92_yamashita2021cpath} | Style Transfer Models | Learning domain-agnostic visual representation for computational pathology using medically-irrelevant style transfer augmentation |
+| Falahkheirkhah *et al*. [[paper]()][[code]()]\cite{98_falahkheirkhah2023cpath} | Generative Models | Deepfake Histologic Images for Enhancing Digital Pathology |
+| Scalbert *et al*. [[paper]()][[code]()]\cite{102_scalbert2022cpath} | Generative Models | Test-time image-to-image translation ensembling improves out-of-distribution generalization in histopathology |
+| Mahmood *et al*. [[paper]()][[code]()]\cite{128_mahmood2020cpath} | Generative Models | Deep Adversarial Training for Multi-Organ Nuclei Segmentation in Histopathology Images |
+| Fan *et al*. [[paper]()][[code]()]\cite{141_fan2022cpath} | Generative Models | Fast FF-to-FFPE Whole Slide Image Translation via Laplacian Pyramid and Contrastive Learning |
+| Marini *et al*. [[paper]()][[code]()]\cite{148_marini2023cpath} | Stain Augmentation | Data-driven color augmentation for H&E stained images in computational pathology |
+| Faryna *et al*. [[paper]()][[code]()]\cite{163_faryna2021cpath} | RandAugment for Histology | Tailoring automated data augmentation to H&E-stained histopathology |
 | **Model Design** | | |
-| Graham *et al*. \cite{37_graham2020cpath} | Model design | Dense Steerable Filter CNNs for Exploiting Rotational Symmetry in Histology Images |
-| Lafarge *et al*. \cite{38_lafarge2021cpath} | Model design | Roto-translation equivariant convolutional networks: Application to histopathology image analysis |
-| Zhang *et al*. \cite{40_zhang2022cpath} | Model design | DDTNet: A dense dual-task network for tumor-infiltrating lymphocyte detection and segmentation in histopathological images of breast cancer |
+| Graham *et al*. [[paper]()][[code]()]\cite{37_graham2020cpath} | Model design | Dense Steerable Filter CNNs for Exploiting Rotational Symmetry in Histology Images |
+| Lafarge *et al*. [[paper]()][[code]()]\cite{38_lafarge2021cpath} | Model design | Roto-translation equivariant convolutional networks: Application to histopathology image analysis |
+| Zhang *et al*. [[paper]()][[code]()]\cite{40_zhang2022cpath} | Model design | DDTNet: A dense dual-task network for tumor-infiltrating lymphocyte detection and segmentation in histopathological images of breast cancer |
 | Graham *et al*. \cite{119_graham2023cpath} | Model Design | One model is all you need: Multi-task learning enables simultaneous histology image segmentation and classification |
 | Yu *et al*. \cite{130_yu2023cpath} | Model Design |  Prototypical multiple instance learning for predicting lymph node metastasis of breast cancer from whole-slide pathological images|
 | Yaar *et al*. \cite{131_yaar2020cpath} | Model Design | Cross-Domain Knowledge Transfer for Prediction of Chemosensitivity in Ovarian Cancer Patients |
@@ -112,10 +112,10 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | Wagner *et al*. \cite{49_wagner2021cpath} | Generative Models | HistAuGAN: Structure-Preserving Multi-Domain Stain Color Augmentation using Style-Transfer with Disentangled Representations |
 | Chikontwe *et al*. \cite{107_chikontwe2022cpath} | Learning disentangled representations | Feature Re-calibration based Multiple Instance Learning for Whole Slide Image Classification |
 | **Ensemble Learning** | | |
-| Sohail *et al*. \cite{50_sohail2021cpath} | Ensemble learning | Mitotic nuclei analysis in breast cancer histopathology images using deep ensemble classifier |
+| Sohail *et al*. [[paper]()][[code]()]\cite{50_sohail2021cpath} | Ensemble learning | Mitotic nuclei analysis in breast cancer histopathology images using deep ensemble classifier |
 | **Regularization Strategies** | | |
-| Mehrtens *et al*. \cite{138_mehrtens2023cpath} | Regularization Strategies | Benchmarking common uncertainty estimation methods with histopathological images under domain shift and label noise |
+| Mehrtens *et al*. [[paper]()][[code]()]\cite{138_mehrtens2023cpath} | Regularization Strategies | Benchmarking common uncertainty estimation methods with histopathological images under domain shift and label noise |
 | **Other** | | |
-| Lu *et al*. \cite{33_lu2022cpath} | Other | Federated learning for computational pathology on gigapixel whole slide images |
-| Aubreville *et al*. \cite{190_aubreville2021cpath} | Other | Quantifying the Scanner-Induced Domain Gap in Mitosis Detection |
-| Sadafi *et al*. \cite{211_sadafi2023cpath} | Other | A Continual Learning Approach for Cross-Domain White Blood Cell Classification |
+| Lu *et al*. [[paper]()][[code]()]\cite{33_lu2022cpath} | Other | Federated learning for computational pathology on gigapixel whole slide images |
+| Aubreville *et al*. [[paper]()][[code]()]\cite{190_aubreville2021cpath} | Other | Quantifying the Scanner-Induced Domain Gap in Mitosis Detection |
+| Sadafi *et al*. [[paper]()][[code]()]\cite{211_sadafi2023cpath} | Other | A Continual Learning Approach for Cross-Domain White Blood Cell Classification |
