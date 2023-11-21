@@ -22,10 +22,10 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | WILDS [[paper](https://arxiv.org/abs/2012.07421)][[download](https://github.com/p-lambda/wilds)]              | BC tumor classification based on Camelyon17              | 1  | 5 centers                                |
 | PANDA [[paper](https://www.nature.com/articles/s41591-021-01620-2)][[download](https://panda.grand-challenge.org/)]              | ISUP and Gleason grading of prostate cancer             | 1, 2, 3 | 2 centers                          |
 |      |                                   **Regression**                       |    |                                          |
-| TUPAC-PAM50         | BC proliferation scoring based on PAM50                  | 1  | 3 centers                                |
-| LYSTO               | Lymphocyte assessment (counting) in IHC images           | 1  | 3 cancers, 9 centers                     |
-| CoNIC (Lizard)      | Cellular composition in colon cancer                     | 1, 3 | 6 sources                             |
-| TiGER-TILs          | TIL score estimation in breast cancer                    | 1  | 3 sources                                |
+| TUPAC-PAM50 [[paper](https://www.sciencedirect.com/science/article/pii/S1361841518305231)][[download](https://tupac.grand-challenge.org/)]         | BC proliferation scoring based on PAM50                  | 1  | 3 centers                                |
+| LYSTO [[paper](https://arxiv.org/abs/2301.06304)][[download](https://lysto.grand-challenge.org/)]              | Lymphocyte assessment (counting) in IHC images           | 1  | 3 cancers, 9 centers                     |
+| CoNIC (Lizard) [[paper](https://warwick.ac.uk/fac/cross_fac/tia/data/)][[download](https://arxiv.org/abs/2108.11195)]      | Cellular composition in colon cancer                     | 1, 3 | 6 sources                             |
+| TiGER-TILs [[paper](https://arxiv.org/abs/2206.11943)][[download](https://tiger.grand-challenge.org/)]          | TIL score estimation in breast cancer                    | 1  | 3 sources                                |
 |     |                            **Segmentation**                             |    |                                          |
 | Crowdsource         | Nuclear segmentation in renal cell carcinoma             | 3  | 6 annotators                             |
 | Camelyon            | BC metastasis segmentation in lymph node WSIs            | 1  | 2 and 5 centers                          |
