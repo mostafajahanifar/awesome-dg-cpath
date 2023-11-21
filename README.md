@@ -6,21 +6,21 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | Dataset             | Application/Task                                        | DS | Domains                                  |
 |---------------------|---------------------------------------------------------|----|------------------------------------------|
 |                     |                   **Detection**                         |    |                                          |
-| ATYPIA14 [paper][download]           | Mitosis detection in breast cancer                       | 1  | 2 scanners                               |
-| Crowdsource         | Nuclei detection in renal cell carcinoma                | 3  | 6 annotators                             |
-| TUPAC-Aux           | Mitosis detection in breast cancer                       | 1  | 3 centers                                |
-| DigestPath          | Signet ring cell detection in colon cancer               | 1  | 4 centers                                |
-| TiGER-Cells         | TILs detection in breast cancer                          | 1  | 3 sources                                |
-| MIDOG               | Mitosis detection in multiple cancer types               | 1, 2, 3 | 7 tumors, 2 species                  |
+| ATYPIA14 [[paper](http://ludo17.free.fr/mitos_atypia_2014/icpr2014_MitosAtypia_DataDescription.pdf)][[download](https://mitos-atypia-14.grand-challenge.org/)]           | Mitosis detection in breast cancer                       | 1  | 2 scanners                               |
+| Crowdsource [[paper](https://www.worldscientific.com/doi/epdf/10.1142/9789814644730_0029)]        | Nuclei detection in renal cell carcinoma                | 3  | 6 annotators                             |
+| TUPAC-Aux [[paper](https://www.sciencedirect.com/science/article/pii/S1361841518305231)][[download](https://tupac.grand-challenge.org/)]           | Mitosis detection in breast cancer                       | 1  | 3 centers                                |
+| DigestPath [[paper](https://www.sciencedirect.com/science/article/pii/S1361841522001323)][[download](https://digestpath2019.grand-challenge.org/)]          | Signet ring cell detection in colon cancer               | 1  | 4 centers                                |
+| TiGER-Cells [[paper](https://arxiv.org/abs/2206.11943)][[download](https://tiger.grand-challenge.org/)]        | TILs detection in breast cancer                          | 1  | 3 sources                                |
+| MIDOG [[paper]()][[download]()]               | Mitosis detection in multiple cancer types               | 1, 2, 3 | 7 tumors, 2 species                  |
 |  |                               **Classification**                           |    |                                          |
-| TUPAC-Mitosis       | BC proliferation scoring based on mitosis score          | 1  | 3 centers                                |
-| Camelyon16          | Lymph node WSI classification for BC metastasis          | 1  | 2 centers                                |
-| PatchCamelyon       | BC tumor classification based on Camelyon16              | 1  | 2 centers                                |
-| Camelyon17          | BC metastasis detection and pN-stage estimation          | 1  | 5 centers                                |
-| LC25000             | Lung and colon tumor classification                     | 4  | 2 organs                                 |
-| Kather 100K         | Colon cancer tissue phenotype classification            | 1  | 3 centers                                |
-| WILDS               | BC tumor classification based on Camelyon17              | 1  | 5 centers                                |
-| PANDA               | ISUP and Gleason grading of prostate cancer             | 1, 2, 3 | 2 centers                          |
+| TUPAC-Mitosis [[paper](https://www.sciencedirect.com/science/article/pii/S1361841518305231)][[download](https://tupac.grand-challenge.org/)]       | BC proliferation scoring based on mitosis score          | 1  | 3 centers                                |
+| Camelyon16 [[paper](https://jamanetwork.com/journals/jama/article-abstract/2665774)][[download](https://camelyon16.grand-challenge.org/)]           | Lymph node WSI classification for BC metastasis          | 1  | 2 centers                                |
+| PatchCamelyon [[paper](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_24)][[download](https://patchcamelyon.grand-challenge.org/)]        | BC tumor classification based on Camelyon16              | 1  | 2 centers                                |
+| Camelyon17 [[paper](https://ieeexplore.ieee.org/abstract/document/8447230)][[download](https://camelyon17.grand-challenge.org/)]           | BC metastasis detection and pN-stage estimation          | 1  | 5 centers                                |
+| LC25000 [[paper](https://arxiv.org/abs/1912.12142)][[download](https://github.com/tampapath/lung_colon_image_set)]              | Lung and colon tumor classification                     | 4  | 2 organs                                 |
+| Kather 100K [[paper](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002730)][[download](https://zenodo.org/records/1214456)]        | Colon cancer tissue phenotype classification            | 1  | 3 centers                                |
+| WILDS [[paper](https://arxiv.org/abs/2012.07421)][[download](https://github.com/p-lambda/wilds)]              | BC tumor classification based on Camelyon17              | 1  | 5 centers                                |
+| PANDA [[paper](https://www.nature.com/articles/s41591-021-01620-2)][[download](https://panda.grand-challenge.org/)]              | ISUP and Gleason grading of prostate cancer             | 1, 2, 3 | 2 centers                          |
 |      |                                   **Regression**                       |    |                                          |
 | TUPAC-PAM50         | BC proliferation scoring based on PAM50                  | 1  | 3 centers                                |
 | LYSTO               | Lymphocyte assessment (counting) in IHC images           | 1  | 3 cancers, 9 centers                     |
