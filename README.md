@@ -1,7 +1,20 @@
 # Awesome Domain Generalization for Computational Pathology
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Datasets
-Publicly available datasets for DG experiments in CPath. Column `DS` represents the type domain shift that can be studies with each dataset (`1: Covariate Shift`, `2: Prior Shift`, `3: Posterior Shift`, and `4: Class-Conditional Shift`).
+This repository contains lists of resources (including [Datasets](#open_file_folder-datasets) and [Code Bases](#computer-code-bases)) that can help domain generalization research in computational pathology. These resources and their related concepts are further explained in the following manuscript:
+```
+@misc{jahanifar2023domain,
+      title={Domain Generalization in Computational Pathology: Survey and Guidelines}, 
+      author={Mostafa Jahanifar and Manahil Raza and Kesi Xu and Trinh Vuong and Rob Jewsbury and Adam Shephard and Neda Zamanitajeddin and Jin Tae Kwak and Shan E Ahmed Raza and Fayyaz Minhas and Nasir Rajpoot},
+      year={2023},
+      eprint={2310.19656},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
+```
+Any contribution will be appreciated. To contribute to this awesome list or suggest new resources, please make a PR and add your suggestions. 
+## :open_file_folder: Datasets 
+Publicly available datasets for DG experiments in CPath. Column `DS` represents the type domain shift that can be studied with each dataset (`1: Covariate Shift`, `2: Prior Shift`, `3: Posterior Shift`, and `4: Class-Conditional Shift`).
 
 | Dataset             | Application/Task                                        | DS | Domains                                  |
 |---------------------|---------------------------------------------------------|----|------------------------------------------|
@@ -47,7 +60,7 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | TCGA [[papers](https://www.cancer.gov/ccg/research/genome-sequencing/tcga/publications)][[download](https://portal.gdc.cancer.gov/)]             | Pan-cancer survival and gene expression prediction       | 1, 2, 4 | 33 cancers, 20 centers             |
 | CPTAC [[papers](https://www.cell.com/consortium/cptac)][[download](https://gdc.cancer.gov/about-gdc/contributed-genomic-data-cancer-research/clinical-proteomic-tumor-analysis-consortium-cptac)][[tool](https://pypi.org/project/cptac/)]              | Pan-cancer survival and gene expression prediction       | 1, 2 | 10 cancers, 11 centers                  |
 
-## Code bases
+## :computer: Code bases
 
 | Reference | DG Method | Title |
 |-----------|-----------|-------|
