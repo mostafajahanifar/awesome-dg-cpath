@@ -40,18 +40,18 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | Lizard [[paper](https://warwick.ac.uk/fac/cross_fac/tia/data/)][[download](https://arxiv.org/abs/2108.11195)]              | Nuclear instance segmentation and classification         | 1, 3 | 6 sources                                |
 | MetaHistoSeg [[paper](https://arxiv.org/abs/2109.14754)][[download](https://github.com/salesforce/MetaHistoSeg)]        | Multiple segmentation tasks in various cancers            | 1  | 5 sources/tasks                          |
 | PANDA [[paper](https://www.nature.com/articles/s41591-021-01620-2)][[download](https://panda.grand-challenge.org/)]               | Tissue segmentation in prostate cancer                   | 1, 2 | 2 centers                                |
-| TiGER-BCSS [[paper](https://academic.oup.com/bioinformatics/article/35/18/3461/5307750)][[download](https://bcsegmentation.grand-challenge.org/)]        | Tissue segmentation in BC (BCSS extension)               | 1  | 3 sources                                |
+| TiGER-BCSS [[paper](https://arxiv.org/abs/2206.11943)][[download](https://tiger.grand-challenge.org/)]        | Tissue segmentation in BC (BCSS extension)               | 1  | 3 sources                                |
 | DigestPath [[paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841522001323)][[download](https://digestpath2019.grand-challenge.org/)]          | Colon tissue segmentation                                | 1  | 4 centers                                |
 | NuInsSeg [[paper](https://arxiv.org/abs/2308.01760)][[download](https://www.kaggle.com/datasets/ipateam/nuinsseg)]            | Nuclear instance segmentation pan-cancer/species         | 1,4 | 31 organs, 2 species                     |
 | |         **Survival and gene expression prediction**                |    |                                          |
-| TCGA                | Pan-cancer survival and gene expression prediction       | 1, 2, 4 | 33 cancers, 20 centers             |
-| CPTAC               | Pan-cancer survival and gene expression prediction       | 1, 2 | 10 cancers, 11 centers                  |
+| TCGA [[papers](https://www.cancer.gov/ccg/research/genome-sequencing/tcga/publications)][[download](https://portal.gdc.cancer.gov/)]             | Pan-cancer survival and gene expression prediction       | 1, 2, 4 | 33 cancers, 20 centers             |
+| CPTAC [[papers](https://www.cell.com/consortium/cptac)][[download](https://gdc.cancer.gov/about-gdc/contributed-genomic-data-cancer-research/clinical-proteomic-tumor-analysis-consortium-cptac)][[tool](https://pypi.org/project/cptac/)]              | Pan-cancer survival and gene expression prediction       | 1, 2 | 10 cancers, 11 centers                  |
 
 ## Code bases
 
 | Reference | DG Method | Title |
 |-----------|-----------|-------|
-| **Pretraining** | | |
+|  | **Pretraining** | |
 | Yang *et al*. [[paper](https://www.sciencedirect.com/science/article/pii/S1361841522001864)][[code](https://github.com/easonyang1996/CS-CO)] | Minimizing Contrastive Loss | CS-CO: A Hybrid Self-Supervised Visual Representation Learning Method for H&E-stained Histopathological Images |
 | Li *et al*. [[paper](https://conferences.miccai.org/2022/papers/293-Paper1939.html)][[code](https://github.com/junl21/lacl?utm_source=catalyzex.com)]  | Minimizing Contrastive Loss | Lesion-Aware Contrastive Representation Learning For Histopathology Whole Slide Images Analysis |
 | Galdran *et al*. [[paper](https://conferences.miccai.org/2022/papers/500-Paper1738.html)][[code](https://github.com/agaldran/t3po?utm_source=catalyzex.com)]  | Unsupervised/Self-supervised learning | Test Time Transform Prediction for Open Set Histopathological Image Recognition |
@@ -67,10 +67,10 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | Lazard *et al*. [[paper](https://openaccess.thecvf.com/content/CVPR2023W/CVMI/papers/Lazard_Giga-SSL_Self-Supervised_Learning_for_Gigapixel_Images_CVPRW_2023_paper.pdf)][[code](https://github.com/trislaz/gigassl)] | Contrastive Learning | Giga-SSL: Self-Supervised Learning for Gigapixel Images |
 | Vuong *et al*. [[paper](https://link.springer.com/chapter/10.1007/978-3-031-25066-8_31)][[code](https://github.com/trinhvg/IMPash)] | Contrastive Learning | IMPaSh: A Novel Domain-Shift Resistant Representation for Colorectal Cancer Tissue Classification |
 | Chen *et al*. [[paper](https://www.nature.com/articles/s41551-022-00929-8)][[code](https://github.com/mahmoodlab/SISH)] | Unsupervised/Self-supervised learning | Fast and scalable search of whole-slide images via self-supervised deep learning |
-| **Meta-Learning** | | |
+|  | **Meta-Learning** | |
 | Sikaroudi *et al*. [[paper](https://ieeexplore.ieee.org/document/9433978)][[code](https://github.com/bghojogh/Histopathology-Magnification-Generalization)] | Meta-learning | Magnification Generalization For Histopathology Image Embedding |
 | Yuan *et al*. [[paper](https://link.springer.com/chapter/10.1007/978-3-030-88210-5_27)][[code](https://github.com/salesforce/MetaHistoSeg)] | Meta-learning | MetaHistoSeg: A Python Framework for Meta Learning in Histopathology Image Segmentation |
-| **Domain Alignment** | | |
+|  | **Domain Alignment** | |
 | Sharma *et al*. [[paper](https://link.springer.com/chapter/10.1007/978-3-031-16434-7_34)][[code](https://github.com/YashSharma/MaNi)] | Mutual Information | MaNi: Maximizing Mutual Information for Nuclei Cross-Domain Unsupervised Segmentation |
 | Boyd *et al*. [[paper](https://link.springer.com/chapter/10.1007/978-3-031-16434-7_35)][[code](https://github.com/jcboyd/miccai2022-roigan)] | Generative Models | Region-guided CycleGANs for Stain Transfer in Whole Slide Images |
 | Kather *et al*. [[paper](https://www.nature.com/articles/s41591-019-0462-y)][[code](https://github.com/jnkather/MSIfromHE/tree/master)] | Stain Normalization | Deep learning can predict microsatellite instability directly from histology in gastrointestinal cancer |
@@ -84,7 +84,7 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | Wilm *et al*. [[paper](https://link.springer.com/chapter/10.1007/978-3-030-97281-3_1)][[code](https://github.com/DeepMicroscopy/MIDOG)] | Domain-Adversarial Learning | Domain adversarial retinanet as a reference algorithm for the mitosis domain generalization (midog) challenge |
 | Haan *et al*. [[paper](https://www.nature.com/articles/s41467-021-25221-2)][[code](https://github.com/kevindehaan/stain-transformation)] | Generative models | Deep learning-based transformation of H&E stained tissues into special stains |
 | Dawood *et al*. [[paper](https://openreview.net/forum?id=flfJ1OwD-FD)][[code](https://github.com/pkeller00/Src-Site-Pred)] | Stain Normalization | Do Tissue Source Sites leave identifiable Signatures in Whole Slide Images beyond staining? | 
-| **Data Augmentation** | | |
+|  | **Data Augmentation** | |
 | Pohjonen *et al*. [[paper](https://arxiv.org/pdf/2206.15274.pdf)][[code](https://github.com/jopo666/StrongAugment)] | Data augmentation | Augment like there’s no tomorrow: Consistently performing neural networks for medical imaging  |
 | Chang *et al*. [[paper](https://miccai2021.org/openaccess/paperlinks/2021/09/01/453-Paper0297.html)][[code](https://github.com/aetherAI/stain-mixup)] | Stain Augmentation | Stain Mix-up: Unsupervised Domain Generalization for Histopathology Images |
 | Shen *et al*. [[paper](https://conferences.miccai.org/2022/papers/406-Paper1231.html)][[code](https://github.com/yiqings/RandStainNA)] | Stain Augmentation | RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization |
@@ -99,7 +99,7 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | Fan *et al*. [[paper](https://conferences.miccai.org/2022/papers/209-Paper2730.html)][[code](https://github.com/hellodfan/fastFF2FFPE)] | Generative Models | Fast FF-to-FFPE Whole Slide Image Translation via Laplacian Pyramid and Contrastive Learning |
 | Marini *et al*. [[paper](https://www.sciencedirect.com/science/article/pii/S2153353922007830)][[code](https://github.com/ilmaro8/Data_Driven_Color_Augmentation)] | Stain Augmentation | Data-driven color augmentation for H&E stained images in computational pathology |
 | Faryna *et al*. [[paper](https://proceedings.mlr.press/v143/faryna21a.html)][[code](https://github.com/DIAGNijmegen/pathology-he-auto-augment)] | RandAugment for Histology | Tailoring automated data augmentation to H&E-stained histopathology |
-| **Model Design** | | |
+|  | **Model Design** | |
 | Graham *et al*. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9153847)][[code](https://github.com/simongraham/dsf-cnn)] | Model design | Dense Steerable Filter CNNs for Exploiting Rotational Symmetry in Histology Images |
 | Lafarge *et al*. [[paper](https://www.sciencedirect.com/science/article/pii/S1361841520302139)][[code](https://github.com/tueimage/se2cnn)] | Model design | Roto-translation equivariant convolutional networks: Application to histopathology image analysis |
 | Zhang *et al*. [[paper](https://www.sciencedirect.com/science/article/pii/S1361841522000676)][[code](https://github.com/ZhangXX54/DDTNet)] | Model design | DDTNet: A dense dual-task network for tumor-infiltrating lymphocyte detection and segmentation in histopathological images of breast cancer |
@@ -108,14 +108,14 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | Yaar *et al*. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9151061)][[code](https://github.com/asfandasfo/LUPI)] | Model Design | Cross-Domain Knowledge Transfer for Prediction of Chemosensitivity in Ovarian Cancer Patients |
 | Tang *et al*. [[paper](https://ieeexplore.ieee.org/document/9607807)][[code](https://github.com/mahdihosseini/DARTS-ADP)] | Model Design | Probeable DARTS with Application to Computational Pathology |
 | Vuong *et al*. [[paper](https://www.sciencedirect.com/science/article/pii/S1361841521002516)][[code](https://github.com/trinhvg/JCO_Learning-pytorch)] | Model Design | Joint categorical and ordinal learning for cancer grading in pathology images |
-| **Learning Disentangled Representations** | | |
+|  | **Domain Separation** | |
 | Wagner *et al*. [[paper](https://link.springer.com/chapter/10.1007/978-3-030-87237-3_25)][[code](https://github.com/sophiajw/HistAuGAN)] | Generative Models | HistAuGAN: Structure-Preserving Multi-Domain Stain Color Augmentation using Style-Transfer with Disentangled Representations |
-| Chikontwe *et al*. [[paper](https://link.springer.com/chapter/10.1007/978-3-031-16434-7_41)][[code](https://github.com/PhilipChicco/FRMIL)]cite{107_chikontwe2022cpath} | Learning disentangled representations | Feature Re-calibration based Multiple Instance Learning for Whole Slide Image Classification |
-| **Ensemble Learning** | | |
+| Chikontwe *et al*. [[paper](https://link.springer.com/chapter/10.1007/978-3-031-16434-7_41)][[code](https://github.com/PhilipChicco/FRMIL)] | Learning disentangled representations | Feature Re-calibration based Multiple Instance Learning for Whole Slide Image Classification |
+|  | **Ensemble Learning** | |
 | Sohail *et al*. [[paper](https://www.sciencedirect.com/science/article/pii/S1361841521001675)][[code](https://github.com/PRLAB21/Mitosis-Detection)] | Ensemble learning | Mitotic nuclei analysis in breast cancer histopathology images using deep ensemble classifier |
-| **Regularization Strategies** | | |
+|  | **Regularization Strategies** | |
 | Mehrtens *et al*. [[paper](https://arxiv.org/abs/2301.01054)][[code](https://github.com/DBO-DKFZ/uncertainty-benchmark)] | Regularization Strategies | Benchmarking common uncertainty estimation methods with histopathological images under domain shift and label noise |
-| **Other** | | |
+|  | **Other** | |
 | Lu *et al*. [[paper](https://www.sciencedirect.com/science/article/pii/S1361841521003431)][[code](https://github.com/mahmoodlab/HistoFL)] | Other | Federated learning for computational pathology on gigapixel whole slide images |
 | Aubreville *et al*. [[paper](https://arxiv.org/abs/2103.16515)][[code](https://github.com/DeepMicroscopy/MIDOG)] | Other | Quantifying the Scanner-Induced Domain Gap in Mitosis Detection |
 | Sadafi *et al*. [[paper](https://arxiv.org/abs/2308.12679)][[code](https://github.com/marrlab/UACL)] | Other | A Continual Learning Approach for Cross-Domain White Blood Cell Classification |
