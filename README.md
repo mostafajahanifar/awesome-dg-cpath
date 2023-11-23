@@ -6,43 +6,43 @@ Publicly available datasets for DG experiments in CPath. Column `DS` represents 
 | Dataset             | Application/Task                                        | DS | Domains                                  |
 |---------------------|---------------------------------------------------------|----|------------------------------------------|
 |                     |                   **Detection**                         |    |                                          |
-| ATYPIA14 [paper][download]           | Mitosis detection in breast cancer                       | 1  | 2 scanners                               |
-| Crowdsource         | Nuclei detection in renal cell carcinoma                | 3  | 6 annotators                             |
-| TUPAC-Aux           | Mitosis detection in breast cancer                       | 1  | 3 centers                                |
-| DigestPath          | Signet ring cell detection in colon cancer               | 1  | 4 centers                                |
-| TiGER-Cells         | TILs detection in breast cancer                          | 1  | 3 sources                                |
-| MIDOG               | Mitosis detection in multiple cancer types               | 1, 2, 3 | 7 tumors, 2 species                  |
+| ATYPIA14 [[paper](http://ludo17.free.fr/mitos_atypia_2014/icpr2014_MitosAtypia_DataDescription.pdf)][[download](https://mitos-atypia-14.grand-challenge.org/)]           | Mitosis detection in breast cancer                       | 1  | 2 scanners                               |
+| Crowdsource [[paper](https://www.worldscientific.com/doi/epdf/10.1142/9789814644730_0029)]        | Nuclei detection in renal cell carcinoma                | 3  | 6 annotators                             |
+| TUPAC-Aux [[paper](https://www.sciencedirect.com/science/article/pii/S1361841518305231)][[download](https://tupac.grand-challenge.org/)]           | Mitosis detection in breast cancer                       | 1  | 3 centers                                |
+| DigestPath [[paper](https://www.sciencedirect.com/science/article/pii/S1361841522001323)][[download](https://digestpath2019.grand-challenge.org/)]          | Signet ring cell detection in colon cancer               | 1  | 4 centers                                |
+| TiGER-Cells [[paper](https://arxiv.org/abs/2206.11943)][[download](https://tiger.grand-challenge.org/)]        | TILs detection in breast cancer                          | 1  | 3 sources                                |
+| MIDOG [[paper]()][[download]()]               | Mitosis detection in multiple cancer types               | 1, 2, 3 | 7 tumors, 2 species                  |
 |  |                               **Classification**                           |    |                                          |
-| TUPAC-Mitosis       | BC proliferation scoring based on mitosis score          | 1  | 3 centers                                |
-| Camelyon16          | Lymph node WSI classification for BC metastasis          | 1  | 2 centers                                |
-| PatchCamelyon       | BC tumor classification based on Camelyon16              | 1  | 2 centers                                |
-| Camelyon17          | BC metastasis detection and pN-stage estimation          | 1  | 5 centers                                |
-| LC25000             | Lung and colon tumor classification                     | 4  | 2 organs                                 |
-| Kather 100K         | Colon cancer tissue phenotype classification            | 1  | 3 centers                                |
-| WILDS               | BC tumor classification based on Camelyon17              | 1  | 5 centers                                |
-| PANDA               | ISUP and Gleason grading of prostate cancer             | 1, 2, 3 | 2 centers                          |
+| TUPAC-Mitosis [[paper](https://www.sciencedirect.com/science/article/pii/S1361841518305231)][[download](https://tupac.grand-challenge.org/)]       | BC proliferation scoring based on mitosis score          | 1  | 3 centers                                |
+| Camelyon16 [[paper](https://jamanetwork.com/journals/jama/article-abstract/2665774)][[download](https://camelyon16.grand-challenge.org/)]           | Lymph node WSI classification for BC metastasis          | 1  | 2 centers                                |
+| PatchCamelyon [[paper](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_24)][[download](https://patchcamelyon.grand-challenge.org/)]        | BC tumor classification based on Camelyon16              | 1  | 2 centers                                |
+| Camelyon17 [[paper](https://ieeexplore.ieee.org/abstract/document/8447230)][[download](https://camelyon17.grand-challenge.org/)]           | BC metastasis detection and pN-stage estimation          | 1  | 5 centers                                |
+| LC25000 [[paper](https://arxiv.org/abs/1912.12142)][[download](https://github.com/tampapath/lung_colon_image_set)]              | Lung and colon tumor classification                     | 4  | 2 organs                                 |
+| Kather 100K [[paper](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002730)][[download](https://zenodo.org/records/1214456)]        | Colon cancer tissue phenotype classification            | 1  | 3 centers                                |
+| WILDS [[paper](https://arxiv.org/abs/2012.07421)][[download](https://github.com/p-lambda/wilds)]              | BC tumor classification based on Camelyon17              | 1  | 5 centers                                |
+| PANDA [[paper](https://www.nature.com/articles/s41591-021-01620-2)][[download](https://panda.grand-challenge.org/)]              | ISUP and Gleason grading of prostate cancer             | 1, 2, 3 | 2 centers                          |
 |      |                                   **Regression**                       |    |                                          |
-| TUPAC-PAM50         | BC proliferation scoring based on PAM50                  | 1  | 3 centers                                |
-| LYSTO               | Lymphocyte assessment (counting) in IHC images           | 1  | 3 cancers, 9 centers                     |
-| CoNIC (Lizard)      | Cellular composition in colon cancer                     | 1, 3 | 6 sources                             |
-| TiGER-TILs          | TIL score estimation in breast cancer                    | 1  | 3 sources                                |
+| TUPAC-PAM50 [[paper](https://www.sciencedirect.com/science/article/pii/S1361841518305231)][[download](https://tupac.grand-challenge.org/)]         | BC proliferation scoring based on PAM50                  | 1  | 3 centers                                |
+| LYSTO [[paper](https://arxiv.org/abs/2301.06304)][[download](https://lysto.grand-challenge.org/)]              | Lymphocyte assessment (counting) in IHC images           | 1  | 3 cancers, 9 centers                     |
+| CoNIC (Lizard) [[paper](https://warwick.ac.uk/fac/cross_fac/tia/data/)][[download](https://arxiv.org/abs/2108.11195)]      | Cellular composition in colon cancer                     | 1, 3 | 6 sources                             |
+| TiGER-TILs [[paper](https://arxiv.org/abs/2206.11943)][[download](https://tiger.grand-challenge.org/)]          | TIL score estimation in breast cancer                    | 1  | 3 sources                                |
 |     |                            **Segmentation**                             |    |                                          |
-| Crowdsource         | Nuclear segmentation in renal cell carcinoma             | 3  | 6 annotators                             |
-| Camelyon            | BC metastasis segmentation in lymph node WSIs            | 1  | 2 and 5 centers                          |
-| DS Bowl 2018        | Nuclear instance segmentation                           | 1, 4 | 31 sets, 5 modalities                   |
-| CPM                 | Nuclear instance segmentation                            | 1, 4 | 4 cancers                                |
-| BCSS                | Semantic tissue segmentation in BC (from TCGA)           | 1  | 20 centers                               |
-| AIDPATH             | Glomeruli segmentation in Kidney biopsies               | 1  | 3 centers                                |
-| PanNuke             | Nuclear instance segmentation and classification         | 1, 2, 4 | 19 organs                           |
-| MoNuSeg             | Nuclear instance segmentation in H&E images              | 1  | 9 organs, 18 centers                     |
-| CryoNuSeg           | Nuclear segmentation in cryosectioned H&E                | 1, 3 | 10 organs, 3 annotations                 |
-| MoNuSAC             | Nuclear instance segmentation and classification         | 1, 2 | 37 centers, 4 organs                     |
-| Lizard              | Nuclear instance segmentation and classification         | 1, 3 | 6 sources                                |
-| MetaHistoSeg        | Multiple segmentation tasks in various cancers            | 1  | 5 sources/tasks                          |
-| PANDA               | Tissue segmentation in prostate cancer                   | 1, 2 | 2 centers                                |
-| TiGER-BCSS          | Tissue segmentation in BC (BCSS extension)               | 1  | 3 sources                                |
-| DigestPath          | Colon tissue segmentation                                | 1  | 4 centers                                |
-| NuInsSeg            | Nuclear instance segmentation pan-cancer/species         | 1,4 | 31 organs, 2 species                     |
+| Crowdsource [[paper](https://www.worldscientific.com/doi/epdf/10.1142/9789814644730_0029)]         | Nuclear segmentation in renal cell carcinoma             | 3  | 6 annotators                             |
+| Camelyon [[paper]()][[download]()]            | BC metastasis segmentation in lymph node WSIs            | 1  | 2 and 5 centers                          |
+| DS Bowl 2018 [[paper](https://www.nature.com/articles/s41592-019-0612-7)][[download](https://www.kaggle.com/c/data-science-bowl-2018)]        | Nuclear instance segmentation                           | 1, 4 | 31 sets, 5 modalities                   |
+| CPM [[paper](https://arxiv.org/abs/1810.13230)][[download](https://drive.google.com/drive/folders/1l55cv3DuY-f7-JotDN7N5nbNnjbLWchK)]                 | Nuclear instance segmentation                            | 1, 4 | 4 cancers                                |
+| BCSS [[paper](https://academic.oup.com/bioinformatics/article/35/18/3461/5307750)][[download](https://bcsegmentation.grand-challenge.org/)]                | Semantic tissue segmentation in BC (from TCGA)           | 1  | 20 centers                               |
+| AIDPATH [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0169260719311381)]            | Glomeruli segmentation in Kidney biopsies               | 1  | 3 centers                                |
+| PanNuke [[paper](https://arxiv.org/abs/2003.10778)][[download](https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke)]             | Nuclear instance segmentation and classification         | 1, 2, 4 | 19 organs                           |
+| MoNuSeg [[paper](https://ieeexplore.ieee.org/document/8880654)][[download](https://monuseg.grand-challenge.org/)]             | Nuclear instance segmentation in H&E images              | 1  | 9 organs, 18 centers                     |
+| CryoNuSeg [[paper](https://www.sciencedirect.com/science/article/pii/S0010482521001438)][[download](https://www.kaggle.com/datasets/ipateam/segmentation-of-nuclei-in-cryosectioned-he-images)]           | Nuclear segmentation in cryosectioned H&E                | 1, 3 | 10 organs, 3 annotations                 |
+| MoNuSAC [[paper](https://ieeexplore.ieee.org/abstract/document/9446924)][[download](https://monusac-2020.grand-challenge.org/)]             | Nuclear instance segmentation and classification         | 1, 2 | 37 centers, 4 organs                     |
+| Lizard [[paper](https://warwick.ac.uk/fac/cross_fac/tia/data/)][[download](https://arxiv.org/abs/2108.11195)]              | Nuclear instance segmentation and classification         | 1, 3 | 6 sources                                |
+| MetaHistoSeg [[paper](https://arxiv.org/abs/2109.14754)][[download](https://github.com/salesforce/MetaHistoSeg)]        | Multiple segmentation tasks in various cancers            | 1  | 5 sources/tasks                          |
+| PANDA [[paper](https://www.nature.com/articles/s41591-021-01620-2)][[download](https://panda.grand-challenge.org/)]               | Tissue segmentation in prostate cancer                   | 1, 2 | 2 centers                                |
+| TiGER-BCSS [[paper](https://academic.oup.com/bioinformatics/article/35/18/3461/5307750)][[download](https://bcsegmentation.grand-challenge.org/)]        | Tissue segmentation in BC (BCSS extension)               | 1  | 3 sources                                |
+| DigestPath [[paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841522001323)][[download](https://digestpath2019.grand-challenge.org/)]          | Colon tissue segmentation                                | 1  | 4 centers                                |
+| NuInsSeg [[paper](https://arxiv.org/abs/2308.01760)][[download](https://www.kaggle.com/datasets/ipateam/nuinsseg)]            | Nuclear instance segmentation pan-cancer/species         | 1,4 | 31 organs, 2 species                     |
 | |         **Survival and gene expression prediction**                |    |                                          |
 | TCGA                | Pan-cancer survival and gene expression prediction       | 1, 2, 4 | 33 cancers, 20 centers             |
 | CPTAC               | Pan-cancer survival and gene expression prediction       | 1, 2 | 10 cancers, 11 centers                  |
